@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class ChatClient {
 
     public static void main(String[] args) throws IOException {
-        String serverAddress = "localhost";  // or server IP
+        String serverAddress = "localhost";  
         int port = 12345;
 
         Socket socket = new Socket(serverAddress, port);
